@@ -7,7 +7,7 @@ password = "optionchain"
 text = "automated 1) the updating of this repo,  and 2)running this python file. done from  myhome/aig. jai guru dev. "
 try:
     import tensorflow as tf
-    text += str(tf.__version__())
+    text += str(tf.__version__)
 except Exception as e:
     text += str(e)
 #print(text, type(text))
