@@ -4,7 +4,7 @@ my_email = "vython2020@gmail.com"
 password = "optionchain"
 #with open('/home/varun/Documents/projects/mobile/ip.txt','r') as ip:
     #text = ip.read()
-text = "automated 1) the updating of this repo,  and 2)running this python file. done from  myhome@28/11/2020.15:50  jai guru dev. "
+text = "automated 1) the updating of this repo,  and 2)running this python file. done from  continental@28/11/2020.19:01  jai guru dev. "
 try:
     import tensorflow as tf
     text += str(tf.__version__)
