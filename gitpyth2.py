@@ -16,9 +16,9 @@ def send_email(text):
     connection.starttls()
     connection.login(user=my_email,password=password)
     connection.sendmail(
-    from_addr=my_email,to_addrs="x16varunk@iima.ac.in",msg="Subject:automation update\n\n"+str(datetime.now())+"\n"+text)
+    from_addr=my_email,to_addrs="x16varunk@iima.ac.in",msg="Subject:automation update\n\n" + "this mail was sent at " + str(datetime.now())+"\n"+text)
     connection.close()
-text = "single .sh file, send_email function, From continental@ 29-nov-2020,21:12 am   jai guru dev. "
+text = f"single .sh file, send_email function, From continental@ 29-nov-2020,21:12 am   jai guru dev. "
 send_email(text)
 
     
