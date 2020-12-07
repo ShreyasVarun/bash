@@ -23,7 +23,7 @@ def send_email(text):
     connection.sendmail(
     from_addr=my_email,to_addrs="x16varunk@iima.ac.in",msg="Subject:automation update\n\n" + "this mail was sent at " + str(datetime.now())+"\n"+text2)
     connection.close()
-text2 = f"single .sh file, send_email function, From aig@ 06-nov-2020,21:12 am   jai guru dev.\n "
+text2 = f"single .sh file, send_email function, From aig@ 07-dec-2020,22:45   jai guru dev.\n "
 
 reqs = requests.get("https://www.empireonline.com/movies/features/best-movies-2/")
 #print (reqs.text)
