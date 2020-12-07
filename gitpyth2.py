@@ -1,6 +1,4 @@
-import os
-os.system("pip3 install bs4")
-
+import numpy
 import smtplib
 from datetime import datetime
 import requests
