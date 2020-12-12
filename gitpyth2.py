@@ -1,5 +1,3 @@
-import os
-os.system("pip install bs4")
 import numpy
 import smtplib
 from datetime import datetime
@@ -25,7 +23,7 @@ def send_email(text):
     connection.sendmail(
     from_addr=my_email,to_addrs="x16varunk@iima.ac.in",msg="Subject:automation update\n\n" + "this mail was sent at " + str(datetime.now())+"\n"+text2)
     connection.close()
-text2 = f"single .sh file, send_email function, From aig@ 08-dec-2020,22:06   jai guru dev.\n "
+text2 = f"jai guru dev\npull is working.\nsh file is working. 12-dec-2020 9:45 @mhj\n "
 
 reqs = requests.get("https://www.empireonline.com/movies/features/best-movies-2/")
 #print (reqs.text)
