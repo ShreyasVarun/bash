@@ -60,7 +60,7 @@ def main():
     tokenized = tokenize_sent(sentence)
     translation = decode_and_detokenize(tokenized,model)
     print(sentence,'\n',translation)
-    with open('/home/varun/reports_weekday.txt') as file2:
+    with open('/home/varun/reports_weekday.txt','r') as file2:
         text2 = file2.read()
     send_email(text2)
     
