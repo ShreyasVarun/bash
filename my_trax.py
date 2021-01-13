@@ -39,7 +39,7 @@ def decode_and_detokenize(tokenized,model):
 
 def main():
     model = create_transformer()
-    tokenized = tokenize_sent(input('enter a sentence: '))#It is nice to learn new things today!')
+    tokenized = tokenize_sent('It is nice to learn new things today!')
     translation = decode_and_detokenize(tokenized,model)
     print(translation)
 
