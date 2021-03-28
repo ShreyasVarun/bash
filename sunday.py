@@ -11,7 +11,7 @@ def main():
     print(translation)
     text2 = f'this is transalated on {datetime.today()}. this mail shows that \
         github sync is working, trax is working, send_email is working'
-    #send_email(text2)
+    send_email(text2)
 
 if __name__ == '__main__':
     main()
