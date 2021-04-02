@@ -5,11 +5,11 @@ from gitpyth2 import send_email
 
 def main():
     # model = create_transformer()
-    # tokenized = tokenize_sent('I will marry Satya Gayatri Yarlagadda in June/July 2021!')
+    text2 = 'I will marry Sruthi Vellanki in June/July 2021!'
     # translation = decode_and_detokenize(tokenized,model)
     # print(f' this is from THURSDAY ')
     # print(translation)
-    text2 = f'this is transalated on {datetime.today()}. this mail shows that \
+    text2 += f'this is transalated on {datetime.today()}. this mail shows that \
         github sync is working, trax is working, send_email is working'
     send_email(text2)
 
