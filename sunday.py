@@ -9,10 +9,9 @@ def main():
     # translation = decode_and_detokenize(tokenized,model)
     # print(f' this is from THURSDAY ')
     # print(translation)
-    text2 += f'this is transalated on {datetime.today()}. this mail shows that \
-        github sync is working, trax is working, send_email is working'
+    text2 += f'two weeks to rl exam and is anything brewing between sruthi & me?'
     send_email(text2)
 
 if __name__ == '__main__':
-    #main()
+    main()
     print('none')
