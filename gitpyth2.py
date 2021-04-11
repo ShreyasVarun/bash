@@ -12,7 +12,7 @@ def send_email(msg_body):
     connection.starttls()
     connection.login(user=my_email,password=password)
     connection.sendmail(
-    from_addr=my_email,to_addrs="x16varunk@iima.ac.in",msg="Subject:automation update\n\n" + "this mail was sent at " + str(datetime.now())+"\n"+msg_body)
+    from_addr=my_email,to_addrs="shailajaraj13@gmail.com",msg="Subject:automation update\n\n" + "this mail was sent at " + str(datetime.now())+"\n"+msg_body)
     connection.close()
 def main():
     text2 = f"jai guru dev\npull is working.\nsh file is working\ncrontab is working. 12-dec-2020 9:45 @mhj\n "
