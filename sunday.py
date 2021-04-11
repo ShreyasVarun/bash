@@ -5,11 +5,12 @@ from gitpyth2 import send_email
 
 def main():
     # model = create_transformer()
-    text2 = 'I will marry Sruthi Vellanki in June/July 2021!'
+    #text2 = 'I will marry Sruthi Vellanki in June/July 2021!'
     # translation = decode_and_detokenize(tokenized,model)
     # print(f' this is from THURSDAY ')
     # print(translation)
-    text2 += f'two weeks to rl exam and is anything brewing between sruthi & me?'
+    text2 = f'{datetime.now()} \n'
+    text2 += f'hi akka i am in tarnaka. ridhi laddu. shreya cutie. this message was typed from laptop to test the connection of my home jewel'
     send_email(text2)
 
 if __name__ == '__main__':
